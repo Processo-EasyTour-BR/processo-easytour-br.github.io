@@ -1,0 +1,939 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xml:lang="en" xmlns:fo="http://www.w3.org/1999/XSL/Format">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Contents</title>
+<style type="text/css">
+/*******************************************************************************
+ * Copyright (c) 2000, 2004, 2005 IBM Corporation. All Rights Reserved. 
+ *
+ * Contributors:
+ *     IBM Corporation - initial API and implementation
+ *******************************************************************************/
+
+* {
+	font-family: arial, helvetica, sans-serif;
+	font-size: 9pt;
+	margin: 0;
+	padding: 0;
+}
+
+BODY {
+	background-color: Window;
+	font: icon;
+	margin:0;
+	padding:0;
+	border:0;
+}
+
+UL {
+	border-width:0;
+	margin-left:15px;
+}
+
+#root {
+	margin-top:5px;
+	margin-left:5px;
+}
+
+UL.expanded {
+	display:block;
+}
+
+UL.collapsed {
+	display: none;
+}
+
+LI {
+	margin-top:3px;
+	list-style-image:none;
+	list-style-type:none;
+		white-space: nowrap;
+}
+
+IMG {
+	vertical-align: top;
+	border:0px;
+	margin:0px;
+	padding:0px;
+	margin-right:4px;
+}
+
+
+A {
+	text-decoration:none;
+	color:#258
+	padding-right:2px;
+	/* this works in ie5.5, but not in ie5.0  */
+	white-space: nowrap;
+}
+
+A:hover{
+	text-decoration:underline;
+}
+
+A.active{
+	background:Highlight;
+	color:HighlightText;
+	width:100%;
+}
+
+A.active:hover{
+	text-decoration:underline;
+	background:Highlight;
+	color:HighlightText;
+	width:100%;
+}
+
+
+
+.h {
+	visibility:hidden;
+}
+
+</style>
+<base target="ory_doc">
+<script language="JavaScript">
+
+// Preload images
+minus = new Image();
+minus.src = "images"+"/minus.gif";
+plus = new Image();
+plus.src = "images"+"/plus.gif";
+altTopicClosed = "Topic\u0020closed";
+altTopicOpen = "Topic\u0020open";
+</script><script language="JavaScript" src="toc.js"></script><script language="JavaScript" src="tree.js"></script>
+</head>
+<body dir="ltr" onload="setLoaded();">
+<ul dir="ltr" class="expanded" id="root">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="6184b4fc" parentId="" guid="_fZHeYkzcEdyHWMosG5iTJw" href="./../Easy/customcategories/category_introduction_9D65CBF9.html?nodeId=6184b4fc"><img src="./images/CustomCategory.gif" alt="" title="">Introduction</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="b37e7014" parentId="6184b4fc" guid="_3WivIBTQEduFIr9xNbwGyQ" href="./../Easy/guidances/concepts/what_is_easy_247E97BA.html?nodeId=b37e7014"><img src="./images/Concept.gif" alt="" title="">O que &eacute; o Easy Process</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="bee5c2ca" parentId="6184b4fc" guid="_PTGe4IRvEduo75chJsIcXg" href="./../Easy/guidances/supportingmaterials/scrum_references_2C089528.html?nodeId=bee5c2ca"><img src="./images/SupportingMaterial.gif" alt="" title="">References</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="c5c96789" parentId="" guid="_fZHeY0zcEdyHWMosG5iTJw" href="./../Easy/customcategories/category_easy_elements_63FA1BE.html?nodeId=c5c96789"><img src="./images/CustomCategory.gif" alt="" title="">Easy Elements</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="64d4bd7f" parentId="c5c96789" guid="_3qmmoP-zEdqLnajTSLeAsA" href="./../Easy/rolesets/easy_roles_BB1923A5.html?nodeId=64d4bd7f"><img src="./images/RoleSet.gif" alt="" title="">Easy Roles</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="c26c3c78" parentId="64d4bd7f" guid="_ICJyYPpaEdqsc-f87sBK8A" href="./../Easy/roles/product_owner_D991557B.html?nodeId=c26c3c78"><img src="./images/Role.gif" alt="" title="">Product Owner</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="71fa5fd0" parentId="c26c3c78" guid="_BjJs8HJpEeeBc8gbZijaVg" href="./../Easy/roles/Primarily_Performs_product_owner_D991557B.html?nodeId=71fa5fd0"><img src="./images/folder.gif" alt="" title="">Primarily Performs</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="beded258" parentId="71fa5fd0" guid="_r1YCkHCfEeetYMsQ8VCH7Q" href="./../Easy/tasks/analise_de_riscos_B0290666.html?nodeId=beded258"><img src="./images/Task.gif" alt="" title="">Analise de Riscos</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c784afce" parentId="71fa5fd0" guid="_RqPjsHClEeetYMsQ8VCH7Q" href="./../Easy/tasks/avaliar_viabilidade_do_projeto_75A6FC54.html?nodeId=c784afce"><img src="./images/Task.gif" alt="" title="">Avaliar Viabilidade do Projeto</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="6b3c6fb8" parentId="71fa5fd0" guid="_ROb1oHCeEeetYMsQ8VCH7Q" href="./../Easy/tasks/estabelecer_cronograma_C0803FA4.html?nodeId=6b3c6fb8"><img src="./images/Task.gif" alt="" title="">Estabelecer Cronograma</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="b872718b" parentId="71fa5fd0" guid="_NxfqIHCdEeetYMsQ8VCH7Q" href="./../Easy/tasks/Estabelecer Orcamento_2C8575B2.html?nodeId=b872718b"><img src="./images/Task.gif" alt="" title="">Estabelecer Or&ccedil;amento</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="177759e7" parentId="71fa5fd0" guid="_BGFMoANkEduYd-55D-Aiqg" href="./../Easy/tasks/iniciar_product_backlog_A3A332AD.html?nodeId=177759e7"><img src="./images/Task.gif" alt="" title="">Iniciar Product Backlog</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="682ebe1e" parentId="71fa5fd0" guid="_ho-aIP_BEdqtbrr0B1TG-A" href="./../Easy/tasks/plan_release_80F3BDAA.html?nodeId=682ebe1e"><img src="./images/Task.gif" alt="" title="">Plan Release</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="6026ebb6" parentId="71fa5fd0" guid="_STkWYP_BEdqtbrr0B1TG-A" href="./../Easy/tasks/update_product_backlog_7D81C56C.html?nodeId=6026ebb6"><img src="./images/Task.gif" alt="" title="">Update product backlog</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="7031c480" parentId="c26c3c78" guid="_BjMJMHJpEeeBc8gbZijaVg" href="./../Easy/roles/Additionally_Performs_product_owner_D991557B.html?nodeId=7031c480"><img src="./images/folder.gif" alt="" title="">Additionally Performs</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="bd3f26fc" parentId="7031c480" guid="_d09LYP_AEdqtbrr0B1TG-A" href="./../Easy/tasks/realizar_encontro_diario_391727BD.html?nodeId=bd3f26fc"><img src="./images/Task.gif" alt="" title="">Daily Easy</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c4bbdfb3" parentId="7031c480" guid="_5SLwgHCgEeetYMsQ8VCH7Q" href="./../Easy/tasks/gerenciamento_de_competencias_999403CB.html?nodeId=c4bbdfb3"><img src="./images/Task.gif" alt="" title="">Gerenciamento de Competencias</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c5df3835" parentId="7031c480" guid="_X9XZgHCjEeetYMsQ8VCH7Q" href="./../Easy/tasks/preparar_ambiente_de_trabalho_532ED0C8.html?nodeId=c5df3835"><img src="./images/Task.gif" alt="" title="">Preparar Ambiente de Trabalho</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="ef0fd58" parentId="7031c480" guid="_J_sRIP_AEdqtbrr0B1TG-A" href="./../Easy/tasks/realizar_retrospectiva_E3220062.html?nodeId=ef0fd58"><img src="./images/Task.gif" alt="" title="">Retrospectiva da Sprint</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="68453cf7" parentId="7031c480" guid="_MRrRYPpbEdqsc-f87sBK8A" href="./../Easy/tasks/revisao_sprint_E6CEA738.html?nodeId=68453cf7"><img src="./images/Task.gif" alt="" title="">Revisao da Sprint</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="6d96467f" parentId="7031c480" guid="_4LOggPpaEdqsc-f87sBK8A" href="./../Easy/tasks/plan_sprint_122255F4.html?nodeId=6d96467f"><img src="./images/Task.gif" alt="" title="">Sprint Planning</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="6bd02032" parentId="c26c3c78" guid="_BjV6MHJpEeeBc8gbZijaVg" href="./../Easy/roles/Responsible_For_product_owner_D991557B.html?nodeId=6bd02032"><img src="./images/folder.gif" alt="" title="">Responsible For</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="ba8e0654" parentId="6bd02032" guid="_5ABscPpYEdqsc-f87sBK8A" href="./../Easy/workproducts/product_backlog_DB75BBD.html?nodeId=ba8e0654"><img src="./images/Artifact.gif" alt="" title="">Product Backlog</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c3f61bc4" parentId="ba8e0654" guid="_-D85cIGIEduKE9hnyImx1Q" href="./../Easy/workproducts/product_backlog_item_C561C125.html?nodeId=c3f61bc4"><img src="./images/Artifact.gif" alt="" title="">Product Backlog Item</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="60110e4a" parentId="ba8e0654" guid="_XtRuYP-zEdqLnajTSLeAsA" href="./../Easy/guidances/concepts/product_release_and_sprint_6CF0007C.html?nodeId=60110e4a"><img src="./images/Concept.gif" alt="" title="">Product, Release and Sprint</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="65e7c713" parentId="ba8e0654" guid="_vKqe8PpaEdqsc-f87sBK8A" href="./../Easy/guidances/reports/release_burndown_chart_C564AEDC.html?nodeId=65e7c713"><img src="./images/Report.gif" alt="" title="">Release Burndown Chart</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="bb468f16" parentId="ba8e0654" guid="_Z2NzkIGWEduKE9hnyImx1Q" href="./../Easy/guidances/reports/release_planning_ED85F1BB.html?nodeId=bb468f16"><img src="./images/Report.gif" alt="" title="">Release planning</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="c25e5b46" parentId="c26c3c78" guid="_BjfEIHJpEeeBc8gbZijaVg" href="./../Easy/roles/Modifies_product_owner_D991557B.html?nodeId=c25e5b46"><img src="./images/folder.gif" alt="" title="">Modifies</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="6853bef5" parentId="c25e5b46" guid="_U_7QoHCmEeetYMsQ8VCH7Q" href="./../Easy/workproducts/ata_de_viabilidade_B9994FC4.html?nodeId=6853bef5"><img src="./images/Artifact.gif" alt="" title="">Ata de Viabilidade</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="66df40be" parentId="c25e5b46" guid="_zN3lAHCdEeetYMsQ8VCH7Q" href="./../Easy/workproducts/diagrama_de_gantt_EC489332.html?nodeId=66df40be"><img src="./images/Artifact.gif" alt="" title="">Diagrama de Gantt</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="bc061a7a" parentId="c25e5b46" guid="__XWNYHCfEeetYMsQ8VCH7Q" href="./../Easy/workproducts/lista_de_riscos_D456339F.html?nodeId=bc061a7a"><img src="./images/Artifact.gif" alt="" title="">Lista de Riscos</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="ba6c9508" parentId="c25e5b46" guid="_SsJUUHCfEeetYMsQ8VCH7Q" href="./../Easy/workproducts/planilha_de_custo_A45C99BE.html?nodeId=ba6c9508"><img src="./images/Artifact.gif" alt="" title="">Planilha de Custo</a>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="71ef45ba" parentId="c25e5b46" guid="_5ABscPpYEdqsc-f87sBK8A" href="./../Easy/workproducts/product_backlog_DB75BBD.html?nodeId=71ef45ba"><img src="./images/Artifact.gif" alt="" title="">Product Backlog</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="bc1e40c7" parentId="71ef45ba" guid="_-D85cIGIEduKE9hnyImx1Q" href="./../Easy/workproducts/product_backlog_item_C561C125.html?nodeId=bc1e40c7"><img src="./images/Artifact.gif" alt="" title="">Product Backlog Item</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c17f6900" parentId="71ef45ba" guid="_XtRuYP-zEdqLnajTSLeAsA" href="./../Easy/guidances/concepts/product_release_and_sprint_6CF0007C.html?nodeId=c17f6900"><img src="./images/Concept.gif" alt="" title="">Product, Release and Sprint</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="6b29355d" parentId="71ef45ba" guid="_vKqe8PpaEdqsc-f87sBK8A" href="./../Easy/guidances/reports/release_burndown_chart_C564AEDC.html?nodeId=6b29355d"><img src="./images/Report.gif" alt="" title="">Release Burndown Chart</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="5ff4476f" parentId="71ef45ba" guid="_Z2NzkIGWEduKE9hnyImx1Q" href="./../Easy/guidances/reports/release_planning_ED85F1BB.html?nodeId=5ff4476f"><img src="./images/Report.gif" alt="" title="">Release planning</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="132c87a6" parentId="64d4bd7f" guid="_9apLsPpaEdqsc-f87sBK8A" href="./../Easy/roles/team_1D060AFC.html?nodeId=132c87a6"><img src="./images/Role.gif" alt="" title="">Easy Team</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="cad717f8" parentId="132c87a6" guid="_Bjo1IHJpEeeBc8gbZijaVg" href="./../Easy/roles/Primarily_Performs_team_1D060AFC.html?nodeId=cad717f8"><img src="./images/folder.gif" alt="" title="">Primarily Performs</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="e2a59bb" parentId="cad717f8" guid="_5SLwgHCgEeetYMsQ8VCH7Q" href="./../Easy/tasks/gerenciamento_de_competencias_999403CB.html?nodeId=e2a59bb"><img src="./images/Task.gif" alt="" title="">Gerenciamento de Competencias</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="129a97ef" parentId="cad717f8" guid="_Xpd5gP_AEdqtbrr0B1TG-A" href="./../Easy/tasks/manage_problems_3EEA5FD9.html?nodeId=129a97ef"><img src="./images/Task.gif" alt="" title="">Manage problems</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="636033be" parentId="cad717f8" guid="_X9XZgHCjEeetYMsQ8VCH7Q" href="./../Easy/tasks/preparar_ambiente_de_trabalho_532ED0C8.html?nodeId=636033be"><img src="./images/Task.gif" alt="" title="">Preparar Ambiente de Trabalho</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="1023da1c" parentId="cad717f8" guid="_J_sRIP_AEdqtbrr0B1TG-A" href="./../Easy/tasks/realizar_retrospectiva_E3220062.html?nodeId=1023da1c"><img src="./images/Task.gif" alt="" title="">Retrospectiva da Sprint</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c844b8f4" parentId="cad717f8" guid="_MRrRYPpbEdqsc-f87sBK8A" href="./../Easy/tasks/revisao_sprint_E6CEA738.html?nodeId=c844b8f4"><img src="./images/Task.gif" alt="" title="">Revisao da Sprint</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="6326a76c" parentId="cad717f8" guid="_4LOggPpaEdqsc-f87sBK8A" href="./../Easy/tasks/plan_sprint_122255F4.html?nodeId=6326a76c"><img src="./images/Task.gif" alt="" title="">Sprint Planning</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="bcf6a912" parentId="132c87a6" guid="_BjymIHJpEeeBc8gbZijaVg" href="./../Easy/roles/Additionally_Performs_team_1D060AFC.html?nodeId=bcf6a912"><img src="./images/folder.gif" alt="" title="">Additionally Performs</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="6311516d" parentId="bcf6a912" guid="_r1YCkHCfEeetYMsQ8VCH7Q" href="./../Easy/tasks/analise_de_riscos_B0290666.html?nodeId=6311516d"><img src="./images/Task.gif" alt="" title="">Analise de Riscos</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="6b0bf068" parentId="bcf6a912" guid="_d09LYP_AEdqtbrr0B1TG-A" href="./../Easy/tasks/realizar_encontro_diario_391727BD.html?nodeId=6b0bf068"><img src="./images/Task.gif" alt="" title="">Daily Easy</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="b97d41d3" parentId="bcf6a912" guid="_ROb1oHCeEeetYMsQ8VCH7Q" href="./../Easy/tasks/estabelecer_cronograma_C0803FA4.html?nodeId=b97d41d3"><img src="./images/Task.gif" alt="" title="">Estabelecer Cronograma</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c5b1db29" parentId="bcf6a912" guid="_NxfqIHCdEeetYMsQ8VCH7Q" href="./../Easy/tasks/Estabelecer Orcamento_2C8575B2.html?nodeId=c5b1db29"><img src="./images/Task.gif" alt="" title="">Estabelecer Or&ccedil;amento</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="1169f8c6" parentId="bcf6a912" guid="_BGFMoANkEduYd-55D-Aiqg" href="./../Easy/tasks/iniciar_product_backlog_A3A332AD.html?nodeId=1169f8c6"><img src="./images/Task.gif" alt="" title="">Iniciar Product Backlog</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c5c9eb4d" parentId="bcf6a912" guid="_ho-aIP_BEdqtbrr0B1TG-A" href="./../Easy/tasks/plan_release_80F3BDAA.html?nodeId=c5c9eb4d"><img src="./images/Task.gif" alt="" title="">Plan Release</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="bb22a60f" parentId="bcf6a912" guid="_STkWYP_BEdqtbrr0B1TG-A" href="./../Easy/tasks/update_product_backlog_7D81C56C.html?nodeId=bb22a60f"><img src="./images/Task.gif" alt="" title="">Update product backlog</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="bfe3589b" parentId="132c87a6" guid="_BjymIXJpEeeBc8gbZijaVg" href="./../Easy/roles/Responsible_For_team_1D060AFC.html?nodeId=bfe3589b"><img src="./images/folder.gif" alt="" title="">Responsible For</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="71df883a" parentId="bfe3589b" guid="_tCmYEP-xEdqLnajTSLeAsA" href="./../Easy/workproducts/product_increment_9A9BD82A.html?nodeId=71df883a"><img src="./images/Artifact.gif" alt="" title="">Product increment</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="72123ebb" parentId="132c87a6" guid="_Bj7wEHJpEeeBc8gbZijaVg" href="./../Easy/roles/Modifies_team_1D060AFC.html?nodeId=72123ebb"><img src="./images/folder.gif" alt="" title="">Modifies</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="187516b4" parentId="72123ebb" guid="_G5SYAHCkEeetYMsQ8VCH7Q" href="./../Easy/workproducts/documento_de_ambiente_trabalho_A49DE40.html?nodeId=187516b4"><img src="./images/Artifact.gif" alt="" title="">Documento de Ambiente Trabalho</a>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="6ae05dd3" parentId="72123ebb" guid="_5ABscPpYEdqsc-f87sBK8A" href="./../Easy/workproducts/product_backlog_DB75BBD.html?nodeId=6ae05dd3"><img src="./images/Artifact.gif" alt="" title="">Product Backlog</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c835802" parentId="6ae05dd3" guid="_-D85cIGIEduKE9hnyImx1Q" href="./../Easy/workproducts/product_backlog_item_C561C125.html?nodeId=c835802"><img src="./images/Artifact.gif" alt="" title="">Product Backlog Item</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="e45788f" parentId="6ae05dd3" guid="_XtRuYP-zEdqLnajTSLeAsA" href="./../Easy/guidances/concepts/product_release_and_sprint_6CF0007C.html?nodeId=e45788f"><img src="./images/Concept.gif" alt="" title="">Product, Release and Sprint</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="134251f0" parentId="6ae05dd3" guid="_vKqe8PpaEdqsc-f87sBK8A" href="./../Easy/guidances/reports/release_burndown_chart_C564AEDC.html?nodeId=134251f0"><img src="./images/Report.gif" alt="" title="">Release Burndown Chart</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="640fd78a" parentId="6ae05dd3" guid="_Z2NzkIGWEduKE9hnyImx1Q" href="./../Easy/guidances/reports/release_planning_ED85F1BB.html?nodeId=640fd78a"><img src="./images/Report.gif" alt="" title="">Release planning</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="bdbd60a8" parentId="72123ebb" guid="_Dzw70PpZEdqsc-f87sBK8A" href="./../Easy/workproducts/sprint_backlog_AEF9CB4A.html?nodeId=bdbd60a8"><img src="./images/Artifact.gif" alt="" title="">Sprint Backlog</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c338587e" parentId="bdbd60a8" guid="_9C78MIHnEdu3SZQ-Dp1OAA" href="./../Easy/workproducts/sprint_backlog_item_E9782B36.html?nodeId=c338587e"><img src="./images/Artifact.gif" alt="" title="">Sprint Backlog Item</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="bb1787f3" parentId="bdbd60a8" guid="_jC4NwPpaEdqsc-f87sBK8A" href="./../Easy/guidances/reports/sprint_burndown_chart_C6600C07.html?nodeId=bb1787f3"><img src="./images/Report.gif" alt="" title="">Sprint Burndown Chart</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="c2f8fe1a" parentId="64d4bd7f" guid="_Qqmp8P_AEdqtbrr0B1TG-A" href="./../Easy/roles/stakeHolder_1207C822.html?nodeId=c2f8fe1a"><img src="./images/Role.gif" alt="" title="">Stakeholder</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="65048426" parentId="c2f8fe1a" guid="_BkGvMHJpEeeBc8gbZijaVg" href="./../Easy/roles/Additionally_Performs_stakeHolder_1207C822.html?nodeId=65048426"><img src="./images/folder.gif" alt="" title="">Additionally Performs</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="bd3eb42d" parentId="65048426" guid="_BGFMoANkEduYd-55D-Aiqg" href="./../Easy/tasks/iniciar_product_backlog_A3A332AD.html?nodeId=bd3eb42d"><img src="./images/Task.gif" alt="" title="">Iniciar Product Backlog</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="63918ba6" parentId="65048426" guid="_J_sRIP_AEdqtbrr0B1TG-A" href="./../Easy/tasks/realizar_retrospectiva_E3220062.html?nodeId=63918ba6"><img src="./images/Task.gif" alt="" title="">Retrospectiva da Sprint</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="67a3e2ad" parentId="65048426" guid="_MRrRYPpbEdqsc-f87sBK8A" href="./../Easy/tasks/revisao_sprint_E6CEA738.html?nodeId=67a3e2ad"><img src="./images/Task.gif" alt="" title="">Revisao da Sprint</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="6866e555" parentId="65048426" guid="_STkWYP_BEdqtbrr0B1TG-A" href="./../Easy/tasks/update_product_backlog_7D81C56C.html?nodeId=6866e555"><img src="./images/Task.gif" alt="" title="">Update product backlog</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="6e4e15d9" parentId="c5c96789" guid="_9yDBIEzbEdyHWMosG5iTJw" href="./../Easy/customcategories/category_artifacts_2566816F.html?nodeId=6e4e15d9"><img src="./images/CustomCategory.gif" alt="" title="">Easy Artifacts</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="15065552" parentId="6e4e15d9" guid="_5ABscPpYEdqsc-f87sBK8A" href="./../Easy/workproducts/product_backlog_DB75BBD.html?nodeId=15065552"><img src="./images/Artifact.gif" alt="" title="">Product Backlog</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="6e4cfc0a" parentId="15065552" guid="_BkJLcHJpEeeBc8gbZijaVg" href="./../Easy/workproducts/Responsible_Role_product_backlog_DB75BBD.html?nodeId=6e4cfc0a"><img src="./images/folder.gif" alt="" title="">Responsible Role</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="b6af38a7" parentId="6e4cfc0a" guid="_ICJyYPpaEdqsc-f87sBK8A" href="./../Easy/roles/product_owner_D991557B.html?nodeId=b6af38a7"><img src="./images/Role.gif" alt="" title="">Product Owner</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="e1f3692" parentId="15065552" guid="_BkJLcXJpEeeBc8gbZijaVg" href="./../Easy/workproducts/Contained_Work_Products_product_backlog_DB75BBD.html?nodeId=e1f3692"><img src="./images/folder.gif" alt="" title="">Contained Work Products</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="6860ba44" parentId="e1f3692" guid="_-D85cIGIEduKE9hnyImx1Q" href="./../Easy/workproducts/product_backlog_item_C561C125.html?nodeId=6860ba44"><img src="./images/Artifact.gif" alt="" title="">Product Backlog Item</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="c42a31e5" parentId="15065552" guid="_BkS8cHJpEeeBc8gbZijaVg" href="./../Easy/workproducts/Input_to_product_backlog_DB75BBD.html?nodeId=c42a31e5"><img src="./images/folder.gif" alt="" title="">Input to</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="118ed96c" parentId="c42a31e5" guid="_4LOggPpaEdqsc-f87sBK8A" href="./../Easy/tasks/plan_sprint_122255F4.html?nodeId=118ed96c"><img src="./images/Task.gif" alt="" title="">Sprint Planning</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="bed0489c" parentId="c42a31e5" guid="_STkWYP_BEdqtbrr0B1TG-A" href="./../Easy/tasks/update_product_backlog_7D81C56C.html?nodeId=bed0489c"><img src="./images/Task.gif" alt="" title="">Update product backlog</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="cab0c92d" parentId="c42a31e5" guid="_ho-aIP_BEdqtbrr0B1TG-A" href="./../Easy/tasks/plan_release_80F3BDAA.html?nodeId=cab0c92d"><img src="./images/Task.gif" alt="" title="">Plan Release</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="67b90176" parentId="15065552" guid="_BkS8cXJpEeeBc8gbZijaVg" href="./../Easy/workproducts/Output_from_product_backlog_DB75BBD.html?nodeId=67b90176"><img src="./images/folder.gif" alt="" title="">Output from</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c5e6c682" parentId="67b90176" guid="_MRrRYPpbEdqsc-f87sBK8A" href="./../Easy/tasks/revisao_sprint_E6CEA738.html?nodeId=c5e6c682"><img src="./images/Task.gif" alt="" title="">Revisao da Sprint</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="bcf340ba" parentId="67b90176" guid="_J_sRIP_AEdqtbrr0B1TG-A" href="./../Easy/tasks/realizar_retrospectiva_E3220062.html?nodeId=bcf340ba"><img src="./images/Task.gif" alt="" title="">Retrospectiva da Sprint</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="b8a37ecd" parentId="67b90176" guid="_STkWYP_BEdqtbrr0B1TG-A" href="./../Easy/tasks/update_product_backlog_7D81C56C.html?nodeId=b8a37ecd"><img src="./images/Task.gif" alt="" title="">Update product backlog</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="b886e433" parentId="67b90176" guid="_ho-aIP_BEdqtbrr0B1TG-A" href="./../Easy/tasks/plan_release_80F3BDAA.html?nodeId=b886e433"><img src="./images/Task.gif" alt="" title="">Plan Release</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="b6f42d14" parentId="67b90176" guid="_BGFMoANkEduYd-55D-Aiqg" href="./../Easy/tasks/iniciar_product_backlog_A3A332AD.html?nodeId=b6f42d14"><img src="./images/Task.gif" alt="" title="">Iniciar Product Backlog</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="1441514c" parentId="15065552" guid="_BkcGYHJpEeeBc8gbZijaVg" href="./../Easy/workproducts/Guidance_product_backlog_DB75BBD.html?nodeId=1441514c"><img src="./images/folder.gif" alt="" title="">Guidance</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="bcd8ae61" parentId="1441514c" guid="_XtRuYP-zEdqLnajTSLeAsA" href="./../Easy/guidances/concepts/product_release_and_sprint_6CF0007C.html?nodeId=bcd8ae61"><img src="./images/Concept.gif" alt="" title="">Product, Release and Sprint</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c0ac02f0" parentId="1441514c" guid="_vKqe8PpaEdqsc-f87sBK8A" href="./../Easy/guidances/reports/release_burndown_chart_C564AEDC.html?nodeId=c0ac02f0"><img src="./images/Report.gif" alt="" title="">Release Burndown Chart</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c080a845" parentId="1441514c" guid="_Z2NzkIGWEduKE9hnyImx1Q" href="./../Easy/guidances/reports/release_planning_ED85F1BB.html?nodeId=c080a845"><img src="./images/Report.gif" alt="" title="">Release planning</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="6c202c5f" parentId="6e4e15d9" guid="_Dzw70PpZEdqsc-f87sBK8A" href="./../Easy/workproducts/sprint_backlog_AEF9CB4A.html?nodeId=6c202c5f"><img src="./images/Artifact.gif" alt="" title="">Sprint Backlog</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="bc7c5de7" parentId="6c202c5f" guid="_BkcGYXJpEeeBc8gbZijaVg" href="./../Easy/workproducts/Contained_Work_Products_sprint_backlog_AEF9CB4A.html?nodeId=bc7c5de7"><img src="./images/folder.gif" alt="" title="">Contained Work Products</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c5d79b5c" parentId="bc7c5de7" guid="_9C78MIHnEdu3SZQ-Dp1OAA" href="./../Easy/workproducts/sprint_backlog_item_E9782B36.html?nodeId=c5d79b5c"><img src="./images/Artifact.gif" alt="" title="">Sprint Backlog Item</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="bfdc0709" parentId="6c202c5f" guid="_BkcGYnJpEeeBc8gbZijaVg" href="./../Easy/workproducts/Input_to_sprint_backlog_AEF9CB4A.html?nodeId=bfdc0709"><img src="./images/folder.gif" alt="" title="">Input to</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="bf09dc7a" parentId="bfdc0709" guid="_d09LYP_AEdqtbrr0B1TG-A" href="./../Easy/tasks/realizar_encontro_diario_391727BD.html?nodeId=bf09dc7a"><img src="./images/Task.gif" alt="" title="">Daily Easy</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="10ca08e3" parentId="bfdc0709" guid="_Xpd5gP_AEdqtbrr0B1TG-A" href="./../Easy/tasks/manage_problems_3EEA5FD9.html?nodeId=10ca08e3"><img src="./images/Task.gif" alt="" title="">Manage problems</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="bc9d5c1d" parentId="6c202c5f" guid="_Bkl3YHJpEeeBc8gbZijaVg" href="./../Easy/workproducts/Output_from_sprint_backlog_AEF9CB4A.html?nodeId=bc9d5c1d"><img src="./images/folder.gif" alt="" title="">Output from</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="b37d3a35" parentId="bc9d5c1d" guid="_4LOggPpaEdqsc-f87sBK8A" href="./../Easy/tasks/plan_sprint_122255F4.html?nodeId=b37d3a35"><img src="./images/Task.gif" alt="" title="">Sprint Planning</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="beecfd1d" parentId="bc9d5c1d" guid="_Xpd5gP_AEdqtbrr0B1TG-A" href="./../Easy/tasks/manage_problems_3EEA5FD9.html?nodeId=beecfd1d"><img src="./images/Task.gif" alt="" title="">Manage problems</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="b576be3e" parentId="bc9d5c1d" guid="_d09LYP_AEdqtbrr0B1TG-A" href="./../Easy/tasks/realizar_encontro_diario_391727BD.html?nodeId=b576be3e"><img src="./images/Task.gif" alt="" title="">Daily Easy</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="c5e77f68" parentId="6c202c5f" guid="_Bkl3YXJpEeeBc8gbZijaVg" href="./../Easy/workproducts/Guidance_sprint_backlog_AEF9CB4A.html?nodeId=c5e77f68"><img src="./images/folder.gif" alt="" title="">Guidance</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="b3bd8153" parentId="c5e77f68" guid="_jC4NwPpaEdqsc-f87sBK8A" href="./../Easy/guidances/reports/sprint_burndown_chart_C6600C07.html?nodeId=b3bd8153"><img src="./images/Report.gif" alt="" title="">Sprint Burndown Chart</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="c508addf" parentId="6e4e15d9" guid="_tCmYEP-xEdqLnajTSLeAsA" href="./../Easy/workproducts/product_increment_9A9BD82A.html?nodeId=c508addf"><img src="./images/Artifact.gif" alt="" title="">Product increment</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="71e6ca34" parentId="c508addf" guid="_BkvoYHJpEeeBc8gbZijaVg" href="./../Easy/workproducts/Responsible_Role_product_increment_9A9BD82A.html?nodeId=71e6ca34"><img src="./images/folder.gif" alt="" title="">Responsible Role</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="bd2afd7a" parentId="71e6ca34" guid="_9apLsPpaEdqsc-f87sBK8A" href="./../Easy/roles/team_1D060AFC.html?nodeId=bd2afd7a"><img src="./images/Role.gif" alt="" title="">Easy Team</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="c18b0249" parentId="c508addf" guid="_BkvoYXJpEeeBc8gbZijaVg" href="./../Easy/workproducts/Input_to_product_increment_9A9BD82A.html?nodeId=c18b0249"><img src="./images/folder.gif" alt="" title="">Input to</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="6f5600ee" parentId="c18b0249" guid="_MRrRYPpbEdqsc-f87sBK8A" href="./../Easy/tasks/revisao_sprint_E6CEA738.html?nodeId=6f5600ee"><img src="./images/Task.gif" alt="" title="">Revisao da Sprint</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="bfa6b1d4" parentId="6e4e15d9" guid="_U_7QoHCmEeetYMsQ8VCH7Q" href="./../Easy/workproducts/ata_de_viabilidade_B9994FC4.html?nodeId=bfa6b1d4"><img src="./images/Artifact.gif" alt="" title="">Ata de Viabilidade</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="bc52d515" parentId="bfa6b1d4" guid="_BkvoYnJpEeeBc8gbZijaVg" href="./../Easy/workproducts/Output_from_ata_de_viabilidade_B9994FC4.html?nodeId=bc52d515"><img src="./images/folder.gif" alt="" title="">Output from</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c1462f84" parentId="bc52d515" guid="_RqPjsHClEeetYMsQ8VCH7Q" href="./../Easy/tasks/avaliar_viabilidade_do_projeto_75A6FC54.html?nodeId=c1462f84"><img src="./images/Task.gif" alt="" title="">Avaliar Viabilidade do Projeto</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="1601ba4e" parentId="6e4e15d9" guid="_zN3lAHCdEeetYMsQ8VCH7Q" href="./../Easy/workproducts/diagrama_de_gantt_EC489332.html?nodeId=1601ba4e"><img src="./images/Artifact.gif" alt="" title="">Diagrama de Gantt</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="67b97652" parentId="1601ba4e" guid="_Bk4yUHJpEeeBc8gbZijaVg" href="./../Easy/workproducts/Output_from_diagrama_de_gantt_EC489332.html?nodeId=67b97652"><img src="./images/folder.gif" alt="" title="">Output from</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="61caecec" parentId="67b97652" guid="_ROb1oHCeEeetYMsQ8VCH7Q" href="./../Easy/tasks/estabelecer_cronograma_C0803FA4.html?nodeId=61caecec"><img src="./images/Task.gif" alt="" title="">Estabelecer Cronograma</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="c256db0b" parentId="6e4e15d9" guid="_G5SYAHCkEeetYMsQ8VCH7Q" href="./../Easy/workproducts/documento_de_ambiente_trabalho_A49DE40.html?nodeId=c256db0b"><img src="./images/Artifact.gif" alt="" title="">Documento de Ambiente Trabalho</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="b53f4189" parentId="c256db0b" guid="_Bk4yUXJpEeeBc8gbZijaVg" href="./../Easy/workproducts/Output_from_documento_de_ambiente_trabalho_A49DE40.html?nodeId=b53f4189"><img src="./images/folder.gif" alt="" title="">Output from</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="6dc57b1b" parentId="b53f4189" guid="_X9XZgHCjEeetYMsQ8VCH7Q" href="./../Easy/tasks/preparar_ambiente_de_trabalho_532ED0C8.html?nodeId=6dc57b1b"><img src="./images/Task.gif" alt="" title="">Preparar Ambiente de Trabalho</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="c0b019ca" parentId="6e4e15d9" guid="__XWNYHCfEeetYMsQ8VCH7Q" href="./../Easy/workproducts/lista_de_riscos_D456339F.html?nodeId=c0b019ca"><img src="./images/Artifact.gif" alt="" title="">Lista de Riscos</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="698a7d8f" parentId="c0b019ca" guid="_Bk4yUnJpEeeBc8gbZijaVg" href="./../Easy/workproducts/Output_from_lista_de_riscos_D456339F.html?nodeId=698a7d8f"><img src="./images/folder.gif" alt="" title="">Output from</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="61a322b2" parentId="698a7d8f" guid="_r1YCkHCfEeetYMsQ8VCH7Q" href="./../Easy/tasks/analise_de_riscos_B0290666.html?nodeId=61a322b2"><img src="./images/Task.gif" alt="" title="">Analise de Riscos</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="bfebea5b" parentId="6e4e15d9" guid="_5eJTcHChEeetYMsQ8VCH7Q" href="./../Easy/workproducts/mapa_de_competencias_D65A1E81.html?nodeId=bfebea5b"><img src="./images/Artifact.gif" alt="" title="">Mapa de Competencias</a>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="5ffc304f" parentId="6e4e15d9" guid="_SsJUUHCfEeetYMsQ8VCH7Q" href="./../Easy/workproducts/planilha_de_custo_A45C99BE.html?nodeId=5ffc304f"><img src="./images/Artifact.gif" alt="" title="">Planilha de Custo</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="6bc2ae9a" parentId="5ffc304f" guid="_BlCjUHJpEeeBc8gbZijaVg" href="./../Easy/workproducts/Output_from_planilha_de_custo_A45C99BE.html?nodeId=6bc2ae9a"><img src="./images/folder.gif" alt="" title="">Output from</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c8353567" parentId="6bc2ae9a" guid="_NxfqIHCdEeetYMsQ8VCH7Q" href="./../Easy/tasks/Estabelecer Orcamento_2C8575B2.html?nodeId=c8353567"><img src="./images/Task.gif" alt="" title="">Estabelecer Or&ccedil;amento</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="b637ea55" parentId="6e4e15d9" guid="_vKqe8PpaEdqsc-f87sBK8A" href="./../Easy/guidances/reports/release_burndown_chart_C564AEDC.html?nodeId=b637ea55"><img src="./images/Report.gif" alt="" title="">Release Burndown Chart</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="66890aca" parentId="6e4e15d9" guid="_Z2NzkIGWEduKE9hnyImx1Q" href="./../Easy/guidances/reports/release_planning_ED85F1BB.html?nodeId=66890aca"><img src="./images/Report.gif" alt="" title="">Release planning</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="b8b693b6" parentId="6e4e15d9" guid="_jC4NwPpaEdqsc-f87sBK8A" href="./../Easy/guidances/reports/sprint_burndown_chart_C6600C07.html?nodeId=b8b693b6"><img src="./images/Report.gif" alt="" title="">Sprint Burndown Chart</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="b985df5e" parentId="c5c96789" guid="_fZHeYUzcEdyHWMosG5iTJw" href="./../Easy/customcategories/category_collaboration_points_AECCB7E3.html?nodeId=b985df5e"><img src="./images/CustomCategory.gif" alt="" title="">Collaboration Points</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="61b72336" parentId="b985df5e" guid="_4LOggPpaEdqsc-f87sBK8A" href="./../Easy/tasks/plan_sprint_122255F4.html?nodeId=61b72336"><img src="./images/Task.gif" alt="" title="">Sprint Planning</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="ba3c52b7" parentId="61b72336" guid="_BlGNsHJpEeeBc8gbZijaVg" href="./../Easy/tasks/Performing_Roles_plan_sprint_122255F4.html?nodeId=ba3c52b7"><img src="./images/folder.gif" alt="" title="">Performing Roles</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c1ada4c6" parentId="ba3c52b7" guid="_9apLsPpaEdqsc-f87sBK8A" href="./../Easy/roles/team_1D060AFC.html?nodeId=c1ada4c6"><img src="./images/Role.gif" alt="" title="">Easy Team</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="141bd535" parentId="ba3c52b7" guid="_ICJyYPpaEdqsc-f87sBK8A" href="./../Easy/roles/product_owner_D991557B.html?nodeId=141bd535"><img src="./images/Role.gif" alt="" title="">Product Owner</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="132bbc65" parentId="61b72336" guid="_BlGNsXJpEeeBc8gbZijaVg" href="./../Easy/tasks/Input_Work_Products_plan_sprint_122255F4.html?nodeId=132bbc65"><img src="./images/folder.gif" alt="" title="">Input Work Products</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="15d0b327" parentId="132bbc65" guid="_5ABscPpYEdqsc-f87sBK8A" href="./../Easy/workproducts/product_backlog_DB75BBD.html?nodeId=15d0b327"><img src="./images/Artifact.gif" alt="" title="">Product Backlog</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="6ca5cded" parentId="61b72336" guid="_BlGNsnJpEeeBc8gbZijaVg" href="./../Easy/tasks/Output_Work_Products_plan_sprint_122255F4.html?nodeId=6ca5cded"><img src="./images/folder.gif" alt="" title="">Output Work Products</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c6459b56" parentId="6ca5cded" guid="_Dzw70PpZEdqsc-f87sBK8A" href="./../Easy/workproducts/sprint_backlog_AEF9CB4A.html?nodeId=c6459b56"><img src="./images/Artifact.gif" alt="" title="">Sprint Backlog</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="66950468" parentId="b985df5e" guid="_d09LYP_AEdqtbrr0B1TG-A" href="./../Easy/tasks/realizar_encontro_diario_391727BD.html?nodeId=66950468"><img src="./images/Task.gif" alt="" title="">Daily Easy</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="ba71b19e" parentId="66950468" guid="_BlP-sHJpEeeBc8gbZijaVg" href="./../Easy/tasks/Performing_Roles_realizar_encontro_diario_391727BD.html?nodeId=ba71b19e"><img src="./images/folder.gif" alt="" title="">Performing Roles</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="f3c7eae" parentId="ba71b19e" guid="_9apLsPpaEdqsc-f87sBK8A" href="./../Easy/roles/team_1D060AFC.html?nodeId=f3c7eae"><img src="./images/Role.gif" alt="" title="">Easy Team</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="b7f02659" parentId="ba71b19e" guid="_ICJyYPpaEdqsc-f87sBK8A" href="./../Easy/roles/product_owner_D991557B.html?nodeId=b7f02659"><img src="./images/Role.gif" alt="" title="">Product Owner</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="11f0bafb" parentId="66950468" guid="_BlP-sXJpEeeBc8gbZijaVg" href="./../Easy/tasks/Input_Work_Products_realizar_encontro_diario_391727BD.html?nodeId=11f0bafb"><img src="./images/folder.gif" alt="" title="">Input Work Products</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="ba5c4569" parentId="11f0bafb" guid="_Dzw70PpZEdqsc-f87sBK8A" href="./../Easy/workproducts/sprint_backlog_AEF9CB4A.html?nodeId=ba5c4569"><img src="./images/Artifact.gif" alt="" title="">Sprint Backlog</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="17a13ebd" parentId="66950468" guid="_BlP-snJpEeeBc8gbZijaVg" href="./../Easy/tasks/Output_Work_Products_realizar_encontro_diario_391727BD.html?nodeId=17a13ebd"><img src="./images/folder.gif" alt="" title="">Output Work Products</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="6f7bfcd3" parentId="17a13ebd" guid="_Dzw70PpZEdqsc-f87sBK8A" href="./../Easy/workproducts/sprint_backlog_AEF9CB4A.html?nodeId=6f7bfcd3"><img src="./images/Artifact.gif" alt="" title="">Sprint Backlog</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="c1600f25" parentId="b985df5e" guid="_MRrRYPpbEdqsc-f87sBK8A" href="./../Easy/tasks/revisao_sprint_E6CEA738.html?nodeId=c1600f25"><img src="./images/Task.gif" alt="" title="">Revisao da Sprint</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="61865f1f" parentId="c1600f25" guid="_BlP-s3JpEeeBc8gbZijaVg" href="./../Easy/tasks/Performing_Roles_revisao_sprint_E6CEA738.html?nodeId=61865f1f"><img src="./images/folder.gif" alt="" title="">Performing Roles</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c5a05392" parentId="61865f1f" guid="_9apLsPpaEdqsc-f87sBK8A" href="./../Easy/roles/team_1D060AFC.html?nodeId=c5a05392"><img src="./images/Role.gif" alt="" title="">Easy Team</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="10d02417" parentId="61865f1f" guid="_ICJyYPpaEdqsc-f87sBK8A" href="./../Easy/roles/product_owner_D991557B.html?nodeId=10d02417"><img src="./images/Role.gif" alt="" title="">Product Owner</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="ba7b5820" parentId="61865f1f" guid="_Qqmp8P_AEdqtbrr0B1TG-A" href="./../Easy/roles/stakeHolder_1207C822.html?nodeId=ba7b5820"><img src="./images/Role.gif" alt="" title="">Stakeholder</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="ffd4797" parentId="c1600f25" guid="_BlZIoHJpEeeBc8gbZijaVg" href="./../Easy/tasks/Input_Work_Products_revisao_sprint_E6CEA738.html?nodeId=ffd4797"><img src="./images/folder.gif" alt="" title="">Input Work Products</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="bad56479" parentId="ffd4797" guid="_tCmYEP-xEdqLnajTSLeAsA" href="./../Easy/workproducts/product_increment_9A9BD82A.html?nodeId=bad56479"><img src="./images/Artifact.gif" alt="" title="">Product increment</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="64483ce1" parentId="c1600f25" guid="_BlZIoXJpEeeBc8gbZijaVg" href="./../Easy/tasks/Output_Work_Products_revisao_sprint_E6CEA738.html?nodeId=64483ce1"><img src="./images/folder.gif" alt="" title="">Output Work Products</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="dfefcc0" parentId="64483ce1" guid="_5ABscPpYEdqsc-f87sBK8A" href="./../Easy/workproducts/product_backlog_DB75BBD.html?nodeId=dfefcc0"><img src="./images/Artifact.gif" alt="" title="">Product Backlog</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="c192f47e" parentId="b985df5e" guid="_J_sRIP_AEdqtbrr0B1TG-A" href="./../Easy/tasks/realizar_retrospectiva_E3220062.html?nodeId=c192f47e"><img src="./images/Task.gif" alt="" title="">Retrospectiva da Sprint</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="b52233c3" parentId="c192f47e" guid="_Bli5oHJpEeeBc8gbZijaVg" href="./../Easy/tasks/Performing_Roles_realizar_retrospectiva_E3220062.html?nodeId=b52233c3"><img src="./images/folder.gif" alt="" title="">Performing Roles</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="e1e7fb4" parentId="b52233c3" guid="_9apLsPpaEdqsc-f87sBK8A" href="./../Easy/roles/team_1D060AFC.html?nodeId=e1e7fb4"><img src="./images/Role.gif" alt="" title="">Easy Team</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c82c52b4" parentId="b52233c3" guid="_ICJyYPpaEdqsc-f87sBK8A" href="./../Easy/roles/product_owner_D991557B.html?nodeId=c82c52b4"><img src="./images/Role.gif" alt="" title="">Product Owner</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c6019fa" parentId="b52233c3" guid="_Qqmp8P_AEdqtbrr0B1TG-A" href="./../Easy/roles/stakeHolder_1207C822.html?nodeId=c6019fa"><img src="./images/Role.gif" alt="" title="">Stakeholder</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="b8a2d729" parentId="c192f47e" guid="_Bli5oXJpEeeBc8gbZijaVg" href="./../Easy/tasks/Output_Work_Products_realizar_retrospectiva_E3220062.html?nodeId=b8a2d729"><img src="./images/folder.gif" alt="" title="">Output Work Products</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="6943978d" parentId="b8a2d729" guid="_5ABscPpYEdqsc-f87sBK8A" href="./../Easy/workproducts/product_backlog_DB75BBD.html?nodeId=6943978d"><img src="./images/Artifact.gif" alt="" title="">Product Backlog</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="c5a8e920" parentId="b985df5e" guid="_5SLwgHCgEeetYMsQ8VCH7Q" href="./../Easy/tasks/gerenciamento_de_competencias_999403CB.html?nodeId=c5a8e920"><img src="./images/Task.gif" alt="" title="">Gerenciamento de Competencias</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="68994bcd" parentId="c5a8e920" guid="_Bli5onJpEeeBc8gbZijaVg" href="./../Easy/tasks/Performing_Roles_gerenciamento_de_competencias_999403CB.html?nodeId=68994bcd"><img src="./images/folder.gif" alt="" title="">Performing Roles</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c2ff596c" parentId="68994bcd" guid="_9apLsPpaEdqsc-f87sBK8A" href="./../Easy/roles/team_1D060AFC.html?nodeId=c2ff596c"><img src="./images/Role.gif" alt="" title="">Easy Team</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c7a0e73a" parentId="68994bcd" guid="_ICJyYPpaEdqsc-f87sBK8A" href="./../Easy/roles/product_owner_D991557B.html?nodeId=c7a0e73a"><img src="./images/Role.gif" alt="" title="">Product Owner</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="71cb2b52" parentId="c5c96789" guid="_jsiDgHJdEeeqeftv1ShIVQ" href="./../Easy/customcategories/category_management_98BF686B.html?nodeId=71cb2b52"><img src="./images/CustomCategory.gif" alt="" title="">Management points</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="f1a258a" parentId="71cb2b52" guid="_r1YCkHCfEeetYMsQ8VCH7Q" href="./../Easy/tasks/analise_de_riscos_B0290666.html?nodeId=f1a258a"><img src="./images/Task.gif" alt="" title="">Analise de Riscos</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="be8e91a7" parentId="f1a258a" guid="_BlsqoHJpEeeBc8gbZijaVg" href="./../Easy/tasks/Performing_Roles_analise_de_riscos_B0290666.html?nodeId=be8e91a7"><img src="./images/folder.gif" alt="" title="">Performing Roles</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="bd07878e" parentId="be8e91a7" guid="_ICJyYPpaEdqsc-f87sBK8A" href="./../Easy/roles/product_owner_D991557B.html?nodeId=bd07878e"><img src="./images/Role.gif" alt="" title="">Product Owner</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c76d7fc3" parentId="be8e91a7" guid="_9apLsPpaEdqsc-f87sBK8A" href="./../Easy/roles/team_1D060AFC.html?nodeId=c76d7fc3"><img src="./images/Role.gif" alt="" title="">Easy Team</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="b38a380a" parentId="f1a258a" guid="_BlsqoXJpEeeBc8gbZijaVg" href="./../Easy/tasks/Output_Work_Products_analise_de_riscos_B0290666.html?nodeId=b38a380a"><img src="./images/folder.gif" alt="" title="">Output Work Products</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="65fc2900" parentId="b38a380a" guid="__XWNYHCfEeetYMsQ8VCH7Q" href="./../Easy/workproducts/lista_de_riscos_D456339F.html?nodeId=65fc2900"><img src="./images/Artifact.gif" alt="" title="">Lista de Riscos</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="626e1113" parentId="71cb2b52" guid="_RqPjsHClEeetYMsQ8VCH7Q" href="./../Easy/tasks/avaliar_viabilidade_do_projeto_75A6FC54.html?nodeId=626e1113"><img src="./images/Task.gif" alt="" title="">Avaliar Viabilidade do Projeto</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="c4051e25" parentId="626e1113" guid="_BlsqonJpEeeBc8gbZijaVg" href="./../Easy/tasks/Performing_Roles_avaliar_viabilidade_do_projeto_75A6FC54.html?nodeId=c4051e25"><img src="./images/folder.gif" alt="" title="">Performing Roles</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c599e5b7" parentId="c4051e25" guid="_ICJyYPpaEdqsc-f87sBK8A" href="./../Easy/roles/product_owner_D991557B.html?nodeId=c599e5b7"><img src="./images/Role.gif" alt="" title="">Product Owner</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="c862ba27" parentId="626e1113" guid="_Blsqo3JpEeeBc8gbZijaVg" href="./../Easy/tasks/Output_Work_Products_avaliar_viabilidade_do_projeto_75A6FC54.html?nodeId=c862ba27"><img src="./images/folder.gif" alt="" title="">Output Work Products</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c4c39d66" parentId="c862ba27" guid="_U_7QoHCmEeetYMsQ8VCH7Q" href="./../Easy/workproducts/ata_de_viabilidade_B9994FC4.html?nodeId=c4c39d66"><img src="./images/Artifact.gif" alt="" title="">Ata de Viabilidade</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="15392134" parentId="71cb2b52" guid="_ROb1oHCeEeetYMsQ8VCH7Q" href="./../Easy/tasks/estabelecer_cronograma_C0803FA4.html?nodeId=15392134"><img src="./images/Task.gif" alt="" title="">Estabelecer Cronograma</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="11849c19" parentId="15392134" guid="_Bl10kHJpEeeBc8gbZijaVg" href="./../Easy/tasks/Performing_Roles_estabelecer_cronograma_C0803FA4.html?nodeId=11849c19"><img src="./images/folder.gif" alt="" title="">Performing Roles</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c5d83d4b" parentId="11849c19" guid="_ICJyYPpaEdqsc-f87sBK8A" href="./../Easy/roles/product_owner_D991557B.html?nodeId=c5d83d4b"><img src="./images/Role.gif" alt="" title="">Product Owner</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c300ed6f" parentId="11849c19" guid="_9apLsPpaEdqsc-f87sBK8A" href="./../Easy/roles/team_1D060AFC.html?nodeId=c300ed6f"><img src="./images/Role.gif" alt="" title="">Easy Team</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="fdfed69" parentId="15392134" guid="_Bl10kXJpEeeBc8gbZijaVg" href="./../Easy/tasks/Output_Work_Products_estabelecer_cronograma_C0803FA4.html?nodeId=fdfed69"><img src="./images/folder.gif" alt="" title="">Output Work Products</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="e07569e" parentId="fdfed69" guid="_zN3lAHCdEeetYMsQ8VCH7Q" href="./../Easy/workproducts/diagrama_de_gantt_EC489332.html?nodeId=e07569e"><img src="./images/Artifact.gif" alt="" title="">Diagrama de Gantt</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="6852d41a" parentId="71cb2b52" guid="_NxfqIHCdEeetYMsQ8VCH7Q" href="./../Easy/tasks/Estabelecer Orcamento_2C8575B2.html?nodeId=6852d41a"><img src="./images/Task.gif" alt="" title="">Estabelecer Or&ccedil;amento</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="b6e765de" parentId="6852d41a" guid="_Bl10knJpEeeBc8gbZijaVg" href="./../Easy/tasks/Performing_Roles_Estabelecer Orcamento_2C8575B2.html?nodeId=b6e765de"><img src="./images/folder.gif" alt="" title="">Performing Roles</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="6bfb8601" parentId="b6e765de" guid="_ICJyYPpaEdqsc-f87sBK8A" href="./../Easy/roles/product_owner_D991557B.html?nodeId=6bfb8601"><img src="./images/Role.gif" alt="" title="">Product Owner</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="6c078371" parentId="b6e765de" guid="_9apLsPpaEdqsc-f87sBK8A" href="./../Easy/roles/team_1D060AFC.html?nodeId=6c078371"><img src="./images/Role.gif" alt="" title="">Easy Team</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="ba94259b" parentId="6852d41a" guid="_Bl_lkHJpEeeBc8gbZijaVg" href="./../Easy/tasks/Output_Work_Products_Estabelecer Orcamento_2C8575B2.html?nodeId=ba94259b"><img src="./images/folder.gif" alt="" title="">Output Work Products</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="b7c9825e" parentId="ba94259b" guid="_SsJUUHCfEeetYMsQ8VCH7Q" href="./../Easy/workproducts/planilha_de_custo_A45C99BE.html?nodeId=b7c9825e"><img src="./images/Artifact.gif" alt="" title="">Planilha de Custo</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="60083afa" parentId="71cb2b52" guid="_Xpd5gP_AEdqtbrr0B1TG-A" href="./../Easy/tasks/manage_problems_3EEA5FD9.html?nodeId=60083afa"><img src="./images/Task.gif" alt="" title="">Manage problems</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="e0d1119" parentId="60083afa" guid="_BmCB0HJpEeeBc8gbZijaVg" href="./../Easy/tasks/Performing_Roles_manage_problems_3EEA5FD9.html?nodeId=e0d1119"><img src="./images/folder.gif" alt="" title="">Performing Roles</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c6c3eb41" parentId="e0d1119" guid="_9apLsPpaEdqsc-f87sBK8A" href="./../Easy/roles/team_1D060AFC.html?nodeId=c6c3eb41"><img src="./images/Role.gif" alt="" title="">Easy Team</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="ba5e4002" parentId="60083afa" guid="_BmDP8HJpEeeBc8gbZijaVg" href="./../Easy/tasks/Input_Work_Products_manage_problems_3EEA5FD9.html?nodeId=ba5e4002"><img src="./images/folder.gif" alt="" title="">Input Work Products</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c6b261df" parentId="ba5e4002" guid="_Dzw70PpZEdqsc-f87sBK8A" href="./../Easy/workproducts/sprint_backlog_AEF9CB4A.html?nodeId=c6b261df"><img src="./images/Artifact.gif" alt="" title="">Sprint Backlog</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="bc892323" parentId="60083afa" guid="_BmDP8XJpEeeBc8gbZijaVg" href="./../Easy/tasks/Output_Work_Products_manage_problems_3EEA5FD9.html?nodeId=bc892323"><img src="./images/folder.gif" alt="" title="">Output Work Products</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c906d97b" parentId="bc892323" guid="_Dzw70PpZEdqsc-f87sBK8A" href="./../Easy/workproducts/sprint_backlog_AEF9CB4A.html?nodeId=c906d97b"><img src="./images/Artifact.gif" alt="" title="">Sprint Backlog</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="c8178bd5" parentId="" guid="_7BSBkABCEduYUKPFgCzFuA" href="./../Easy/customcategories/easy_lifecycle_9F309DD3.html?nodeId=c8178bd5"><img src="./images/CustomCategory.gif" alt="" title="">Easy LifeCycle</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="bc1b150f" parentId="c8178bd5" guid="_9llsAQAvEdubGMceRDupFQ" href="./../Easy/deliveryprocesses/easy_lifecycle_8BEF30AA.html?nodeId=bc1b150f"><img src="./images/DeliveryProcess.gif" alt="" title="">Easy Lifecycle</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="118c4898" parentId="bc1b150f" guid="_37TdkAL_EduOAKqB9I73uw" href="./../Easy/deliveryprocesses/Preparation Phase_31F530DE.html?proc=_9llsAQAvEdubGMceRDupFQ&amp;path=_9llsAQAvEdubGMceRDupFQ,_37TdkAL_EduOAKqB9I73uw&amp;nodeId=118c4898"><img src="./images/Phase.gif" alt="" title="">Preparation Phase</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="6da1a490" parentId="118c4898" guid="_zYT-EQMAEduOAKqB9I73uw" href="./../Easy/tasks/plan_release_80F3BDAA.html?proc=_9llsAQAvEdubGMceRDupFQ&amp;path=_9llsAQAvEdubGMceRDupFQ,_37TdkAL_EduOAKqB9I73uw,_zYT-EQMAEduOAKqB9I73uw&amp;nodeId=6da1a490"><img src="./images/Task.gif" alt="" title="">Plan Release</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="629198bb" parentId="118c4898" guid="_reB2UHFfEeeQB4FKMAE3Rg" href="./../Easy/tasks/estabelecer_cronograma_C0803FA4.html?proc=_9llsAQAvEdubGMceRDupFQ&amp;path=_9llsAQAvEdubGMceRDupFQ,_37TdkAL_EduOAKqB9I73uw,_reB2UHFfEeeQB4FKMAE3Rg&amp;nodeId=629198bb"><img src="./images/Task.gif" alt="" title="">Estabelecer Cronograma</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="6f726816" parentId="118c4898" guid="_OcAGAHFpEeeQB4FKMAE3Rg" href="./../Easy/tasks/Estabelecer Orcamento_2C8575B2.html?proc=_9llsAQAvEdubGMceRDupFQ&amp;path=_9llsAQAvEdubGMceRDupFQ,_37TdkAL_EduOAKqB9I73uw,_OcAGAHFpEeeQB4FKMAE3Rg&amp;nodeId=6f726816"><img src="./images/Task.gif" alt="" title="">Estabelecer Or&ccedil;amento</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="bd3e88f0" parentId="118c4898" guid="_s5oQoHFqEeeQB4FKMAE3Rg" href="./../Easy/deliveryprocesses/Preparar_ambiente_FDDECB61.html?proc=_9llsAQAvEdubGMceRDupFQ&amp;path=_9llsAQAvEdubGMceRDupFQ,_37TdkAL_EduOAKqB9I73uw,_s5oQoHFqEeeQB4FKMAE3Rg&amp;nodeId=bd3e88f0"><img src="./images/Task.gif" alt="" title="">Preparar ambiente</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c859a297" parentId="118c4898" guid="_7FGsMANkEduYd-55D-Aiqg" href="./../Easy/tasks/iniciar_product_backlog_A3A332AD.html?proc=_9llsAQAvEdubGMceRDupFQ&amp;path=_9llsAQAvEdubGMceRDupFQ,_37TdkAL_EduOAKqB9I73uw,_7FGsMANkEduYd-55D-Aiqg&amp;nodeId=c859a297"><img src="./images/Task.gif" alt="" title="">Iniciar Product Backlog</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="6ca2ff82" parentId="118c4898" guid="_O6XmcANlEduYd-55D-Aiqg" href="./../Easy/deliveryprocesses/Preparation work_C3F77ACA.html?proc=_9llsAQAvEdubGMceRDupFQ&amp;path=_9llsAQAvEdubGMceRDupFQ,_37TdkAL_EduOAKqB9I73uw,_O6XmcANlEduYd-55D-Aiqg&amp;nodeId=6ca2ff82"><img src="./images/Task.gif" alt="" title="">Preparation tasks</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="10ea9480" parentId="bc1b150f" guid="_NSW6sQMAEduOAKqB9I73uw" href="./../Easy/deliveryprocesses/Sprint Phase_E1B0777.html?proc=_9llsAQAvEdubGMceRDupFQ&amp;path=_9llsAQAvEdubGMceRDupFQ,_NSW6sQMAEduOAKqB9I73uw&amp;nodeId=10ea9480"><img src="./images/Phase.gif" alt="" title="">Sprint phases</a>
+<ul class="collapsed">
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="64c42af8" parentId="10ea9480" guid="_SoXWEQMAEduOAKqB9I73uw" href="./../Easy/deliveryprocesses/Sprint n_27D4555C.html?proc=_9llsAQAvEdubGMceRDupFQ&amp;path=_9llsAQAvEdubGMceRDupFQ,_NSW6sQMAEduOAKqB9I73uw,_SoXWEQMAEduOAKqB9I73uw&amp;nodeId=64c42af8"><img src="./images/Iteration.gif" alt="" title="">Sprint</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="11db7423" parentId="64c42af8" guid="_glbG0AMAEduOAKqB9I73uw" href="./../Easy/tasks/manage_problems_3EEA5FD9.html?proc=_9llsAQAvEdubGMceRDupFQ&amp;path=_9llsAQAvEdubGMceRDupFQ,_NSW6sQMAEduOAKqB9I73uw,_SoXWEQMAEduOAKqB9I73uw,_glbG0AMAEduOAKqB9I73uw&amp;nodeId=11db7423"><img src="./images/Task.gif" alt="" title="">Manage problems</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="6875ee98" parentId="64c42af8" guid="_glbG0QMAEduOAKqB9I73uw" href="./../Easy/tasks/update_product_backlog_7D81C56C.html?proc=_9llsAQAvEdubGMceRDupFQ&amp;path=_9llsAQAvEdubGMceRDupFQ,_NSW6sQMAEduOAKqB9I73uw,_SoXWEQMAEduOAKqB9I73uw,_glbG0QMAEduOAKqB9I73uw&amp;nodeId=6875ee98"><img src="./images/Task.gif" alt="" title="">Update product backlog</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c23250db" parentId="64c42af8" guid="_glbG0wMAEduOAKqB9I73uw" href="./../Easy/tasks/plan_sprint_122255F4.html?proc=_9llsAQAvEdubGMceRDupFQ&amp;path=_9llsAQAvEdubGMceRDupFQ,_NSW6sQMAEduOAKqB9I73uw,_SoXWEQMAEduOAKqB9I73uw,_glbG0wMAEduOAKqB9I73uw&amp;nodeId=c23250db"><img src="./images/Task.gif" alt="" title="">Sprint Planning</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="b711d893" parentId="64c42af8" guid="_glbG1AMAEduOAKqB9I73uw" href="./../Easy/tasks/realizar_retrospectiva_E3220062.html?proc=_9llsAQAvEdubGMceRDupFQ&amp;path=_9llsAQAvEdubGMceRDupFQ,_NSW6sQMAEduOAKqB9I73uw,_SoXWEQMAEduOAKqB9I73uw,_glbG1AMAEduOAKqB9I73uw&amp;nodeId=b711d893"><img src="./images/Task.gif" alt="" title="">Retrospectiva da Sprint</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="10ce8f1c" parentId="64c42af8" guid="_glbG1QMAEduOAKqB9I73uw" href="./../Easy/tasks/revisao_sprint_E6CEA738.html?proc=_9llsAQAvEdubGMceRDupFQ&amp;path=_9llsAQAvEdubGMceRDupFQ,_NSW6sQMAEduOAKqB9I73uw,_SoXWEQMAEduOAKqB9I73uw,_glbG1QMAEduOAKqB9I73uw&amp;nodeId=10ce8f1c"><img src="./images/Task.gif" alt="" title="">Revisao da Sprint Review</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="b51c012d" parentId="64c42af8" guid="_glbG1gMAEduOAKqB9I73uw" href="./../Easy/tasks/realizar_encontro_diario_391727BD.html?proc=_9llsAQAvEdubGMceRDupFQ&amp;path=_9llsAQAvEdubGMceRDupFQ,_NSW6sQMAEduOAKqB9I73uw,_SoXWEQMAEduOAKqB9I73uw,_glbG1gMAEduOAKqB9I73uw&amp;nodeId=b51c012d"><img src="./images/Task.gif" alt="" title="">Daily Scrum</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="6698cc60" parentId="64c42af8" guid="_nXmKUANlEduYd-55D-Aiqg" href="./../Easy/deliveryprocesses/Daily work_AA24EBA4.html?proc=_9llsAQAvEdubGMceRDupFQ&amp;path=_9llsAQAvEdubGMceRDupFQ,_NSW6sQMAEduOAKqB9I73uw,_SoXWEQMAEduOAKqB9I73uw,_nXmKUANlEduYd-55D-Aiqg&amp;nodeId=6698cc60"><img src="./images/Task.gif" alt="" title="">Daily works</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="b7f1189c" parentId="64c42af8" guid="_E7q_QHFpEeeQB4FKMAE3Rg" href="./../Easy/deliveryprocesses/Analise de Risco_96AA493A.html?proc=_9llsAQAvEdubGMceRDupFQ&amp;path=_9llsAQAvEdubGMceRDupFQ,_NSW6sQMAEduOAKqB9I73uw,_SoXWEQMAEduOAKqB9I73uw,_E7q_QHFpEeeQB4FKMAE3Rg&amp;nodeId=b7f1189c"><img src="./images/Task.gif" alt="" title="">Analise de Risco</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="c68d223d" parentId="10ea9480" guid="_zbM2QIGBEduKE9hnyImx1Q" href="./../Easy/deliveryprocesses/Sprint de release_58D4AA9.html?proc=_9llsAQAvEdubGMceRDupFQ&amp;path=_9llsAQAvEdubGMceRDupFQ,_NSW6sQMAEduOAKqB9I73uw,_zbM2QIGBEduKE9hnyImx1Q&amp;nodeId=c68d223d"><img src="./images/Task.gif" alt="" title="">Release work</a>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/plus.gif" class="collapsed" alt="" title="" showIcon="true"><a id="f3c8d3a" parentId="bc1b150f" guid="_BmWx8HJpEeeBc8gbZijaVg" href="./../Easy/deliveryprocesses/Guidance_easy_lifecycle_8BEF30AA.html?nodeId=f3c8d3a"><img src="./images/folder.gif" alt="" title="">Guidance</a>
+<ul class="collapsed">
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="64db86ae" parentId="f3c8d3a" guid="_XtRuYP-zEdqLnajTSLeAsA" href="./../Easy/guidances/concepts/product_release_and_sprint_6CF0007C.html?nodeId=64db86ae"><img src="./images/Concept.gif" alt="" title="">Product, Release and Sprint</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="6ccd6427" parentId="c8178bd5" guid="_6Jox0IRuEduo75chJsIcXg" href="./../Easy/guidances/roadmaps/applying_easy_D45D766.html?nodeId=6ccd6427"><img src="./images/Roadmap.gif" alt="" title="">Applying Easy</a>
+</li>
+<li>
+<img src="images/noplus.gif" class="collapsed" alt="" title="" showIcon="false"><a id="17950819" parentId="c8178bd5" guid="_XtRuYP-zEdqLnajTSLeAsA" href="./../Easy/guidances/concepts/product_release_and_sprint_6CF0007C.html?nodeId=17950819"><img src="./images/Concept.gif" alt="" title="">Product, Release and Sprint</a>
+</li>
+</ul>
+</li>
+</ul>
+</body>
+</html>

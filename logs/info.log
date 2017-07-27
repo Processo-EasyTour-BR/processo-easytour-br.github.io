@@ -1,0 +1,87 @@
+Info: CustomCategory:category_base_content: 486 mini seconds publishing element
+Info: CustomCategory:category_introduction: 0 mini seconds publishing element
+Info: Concept:what_is_easy: 247 mini seconds publishing element
+Info: SupportingMaterial:scrum_references: 0 mini seconds publishing element
+Info: CustomCategory:category_easy_elements: 38 mini seconds publishing element
+Info: RoleSet:easy_roles: 31 mini seconds publishing element
+Info: : 1736 mini-second(s) publishing element Role:product_owner[Easy\roles\product_owner_D991557B.html]
+Info: Role:product_owner: 1736 mini seconds publishing element
+Info: Task:analise_de_riscos: 238 mini seconds publishing element
+Info: Task:avaliar_viabilidade_do_projeto: 16 mini seconds publishing element
+Info: Task:estabelecer_cronograma: 16 mini seconds publishing element
+Info: Task:Estabelecer Orcamento: 15 mini seconds publishing element
+Info: Task:iniciar_product_backlog: 15 mini seconds publishing element
+Info: Task:plan_release: 23 mini seconds publishing element
+Info: Task:update_product_backlog: 15 mini seconds publishing element
+Info: Task:realizar_encontro_diario: 31 mini seconds publishing element
+Info: Task:gerenciamento_de_competencias: 16 mini seconds publishing element
+Info: Task:preparar_ambiente_de_trabalho: 16 mini seconds publishing element
+Info: Task:realizar_retrospectiva: 18 mini seconds publishing element
+Info: Task:revisao_sprint: 20 mini seconds publishing element
+Info: Task:plan_sprint: 15 mini seconds publishing element
+Info: Artifact:product_backlog: 285 mini seconds publishing element
+Info: Artifact:product_backlog_item: 16 mini seconds publishing element
+Info: Concept:product_release_and_sprint: 31 mini seconds publishing element
+Info: Report:release_burndown_chart: 0 mini seconds publishing element
+Info: Report:release_planning: 22 mini seconds publishing element
+Info: Artifact:ata_de_viabilidade: 0 mini seconds publishing element
+Info: Artifact:diagrama_de_gantt: 16 mini seconds publishing element
+Info: Artifact:lista_de_riscos: 15 mini seconds publishing element
+Info: Artifact:planilha_de_custo: 0 mini seconds publishing element
+Info: Role:team: 69 mini seconds publishing element
+Info: Task:manage_problems: 16 mini seconds publishing element
+Info: Artifact:product_increment: 47 mini seconds publishing element
+Info: Artifact:documento_de_ambiente_trabalho: 15 mini seconds publishing element
+Info: Artifact:sprint_backlog: 21 mini seconds publishing element
+Info: Artifact:sprint_backlog_item: 2 mini seconds publishing element
+Info: Report:sprint_burndown_chart: 0 mini seconds publishing element
+Info: Role:stakeHolder: 31 mini seconds publishing element
+Info: CustomCategory:category_artifacts: 0 mini seconds publishing element
+Info: Artifact:mapa_de_competencias: 16 mini seconds publishing element
+Info: CustomCategory:category_collaboration_points: 0 mini seconds publishing element
+Info: CustomCategory:category_management: 16 mini seconds publishing element
+Info: CustomCategory:easy_lifecycle: 0 mini seconds publishing element
+Info: : 2861 mini-second(s) publishing element DeliveryProcess:easy_lifecycle[Easy\deliveryprocesses\easy_lifecycle_8BEF30AA.html]
+Info: DeliveryProcess:easy_lifecycle: 2861 mini seconds publishing element
+Info: DeliveryProcess:easy_lifecycle: 1634 mini seconds publishing process specific layout data
+Info: Phase:Preparation Phase: 339 mini seconds publishing element
+Info: TaskDescriptor:plan_release: 15 mini seconds publishing element
+Info: TaskDescriptor:estabelecer_cronograma: 0 mini seconds publishing element
+Info: TaskDescriptor:Estabelecer Orcamento: 0 mini seconds publishing element
+Info: TaskDescriptor:Preparar_ambiente: 232 mini seconds publishing element
+Info: TaskDescriptor:iniciar_product_backlog: 16 mini seconds publishing element
+Info: TaskDescriptor:Preparation work: 37 mini seconds publishing element
+Info: Phase:Sprint Phase: 278 mini seconds publishing element
+Info: Iteration:Sprint (n): 771 mini seconds publishing element
+Info: TaskDescriptor:manage_problems: 0 mini seconds publishing element
+Info: TaskDescriptor:update_product_backlog: 15 mini seconds publishing element
+Info: TaskDescriptor:plan_sprint: 16 mini seconds publishing element
+Info: TaskDescriptor:realizar_retrospectiva: 17 mini seconds publishing element
+Info: TaskDescriptor:revisao_sprint: 4 mini seconds publishing element
+Info: TaskDescriptor:realizar_encontro_diario_scrum: 16 mini seconds publishing element
+Info: TaskDescriptor:Daily work: 0 mini seconds publishing element
+Info: TaskDescriptor:Analise de Risco: 15 mini seconds publishing element
+Info: TaskDescriptor:Sprint de release: 0 mini seconds publishing element
+Info: Roadmap:applying_easy: 16 mini seconds publishing element
+Info: Concept:collaborative_work: 0 mini seconds publishing element
+Info: Discipline:easy_tasks: 16 mini seconds publishing element
+Info: TermDefinition:Velocity: 0 mini seconds publishing element
+Info: Domain:easy_artifacts: 15 mini seconds publishing element
+Info: WorkProductType:backlogs: 20 mini seconds publishing element
+Info: TermDefinition:release: 1 mini seconds publishing element
+Info: TermDefinition:sprint: 0 mini seconds publishing element
+Info: TermDefinition:burndown_chart: 0 mini seconds publishing element
+Info: RoleDescriptor:team: 16 mini seconds publishing element
+Info: RoleDescriptor:product_owner: 16 mini seconds publishing element
+Info: RoleDescriptor:stakeHolder: 0 mini seconds publishing element
+Info: WorkProductDescriptor:diagrama_de_gantt: 0 mini seconds publishing element
+Info: WorkProductDescriptor:documento_de_ambiente_trabalho: 0 mini seconds publishing element
+Info: WorkProductDescriptor:planilha_de_custo: 15 mini seconds publishing element
+Info: WorkProductDescriptor:product_backlog: 0 mini seconds publishing element
+Info: WorkProductDescriptor:Product increment: 16 mini seconds publishing element
+Info: WorkProductDescriptor:sprint_backlog: 0 mini seconds publishing element
+Info: RoleDescriptor:product_owner: 16 mini seconds publishing element
+Info: RoleDescriptor:team: 0 mini seconds publishing element
+Info: RoleDescriptor:stakeHolder: 18 mini seconds publishing element
+Info: WorkProductDescriptor:product_backlog: 4 mini seconds publishing element
+Info: : Publishing time: 0 minutes 13 seconds
